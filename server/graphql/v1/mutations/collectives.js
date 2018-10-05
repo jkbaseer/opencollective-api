@@ -1,5 +1,5 @@
 import debugLib from 'debug';
-import slugify from 'slug';
+import slugify from 'slugify';
 import { get, omit } from 'lodash';
 
 import models from '../../../models';

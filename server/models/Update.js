@@ -4,7 +4,7 @@
 import config from 'config';
 import _, { pick } from 'lodash';
 import Temporal from 'sequelize-temporal';
-import slugify from 'slug';
+import slugify from 'slugify';
 import activities from '../constants/activities';
 import { mustBeLoggedInTo, mustHaveRole } from '../lib/auth';
 import Promise from 'bluebird';

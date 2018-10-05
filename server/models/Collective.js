@@ -16,7 +16,7 @@ import {
   getDomain,
   formatCurrency,
 } from '../lib/utils';
-import slugify from 'slug';
+import slugify from 'slugify';
 import activities from '../constants/activities';
 import Promise from 'bluebird';
 import userlib from '../lib/userlib';
